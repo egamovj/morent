@@ -1,3 +1,7 @@
+.hero-sec {
+  background-color: #f6f7f9;
+}
+
 .top {
   display: flex;
   align-items: center;
@@ -66,4 +70,64 @@ button:hover {
 
 .easy-way button {
   background: #54a6ff;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.pick-up,
+.drop-off {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 16px;
+  background-color: #fff;
+  padding: 24px 48px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.swap {
+  background: #3563e9;
+  padding: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.swap:hover {
+  transform: scale(0.98);
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.selects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
+.selects div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.line {
+  width: 1px;
+  height: 48px;
+  background-color: #c3d4e9;
 }
