@@ -1,0 +1,69 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.platform,
+.easy-way {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 640px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 18px;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.platform {
+  background-image: url("../../../public/images/platform-bg.png");
+  background-color: #54a6ff;
+}
+
+.easy-way {
+  background-image: url("../../../public/images/easy-way-bg.png");
+  background-color: #3563e9;
+}
+
+h2,
+p {
+  color: #fff;
+  letter-spacing: -2%;
+  line-height: 150%;
+}
+
+.platform h2,
+.easy-way h2 {
+  font-size: 32px;
+}
+
+.platform p,
+.easy-way p {
+  font-size: 16px;
+}
+
+.platform button,
+.easy-way button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s all linear;
+}
+
+button:hover {
+  transform: scale(0.97);
+}
+
+.platform button {
+  background: #3563e9;
+}
+
+.easy-way button {
+  background: #54a6ff;
+}
