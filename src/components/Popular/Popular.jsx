@@ -20,6 +20,30 @@ const Popular = () => {
               capacity="2"
               price="$99.00"
             />
+            <CarCard
+              name="Koenigsegg"
+              subtitle="Sport"
+              image="../../public/images/koenigsegg.png"
+              gasoline="90L"
+              capacity="2"
+              price="$99.00"
+            />
+            <CarCard
+              name="Koenigsegg"
+              subtitle="Sport"
+              image="../../public/images/koenigsegg.png"
+              gasoline="90L"
+              capacity="2"
+              price="$99.00"
+            />
+            <CarCard
+              name="Koenigsegg"
+              subtitle="Sport"
+              image="../../public/images/koenigsegg.png"
+              gasoline="90L"
+              capacity="2"
+              price="$99.00"
+            />
           </div>
         </section>
       </div>
