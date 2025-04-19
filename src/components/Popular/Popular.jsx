@@ -21,28 +21,28 @@ const Popular = () => {
               price="$99.00"
             />
             <CarCard
-              name="Koenigsegg"
+              name="Nissan GT-R"
               subtitle="Sport"
-              image="../../public/images/koenigsegg.png"
-              gasoline="90L"
+              image="../../public/images/nissan.png"
+              gasoline="80L"
               capacity="2"
-              price="$99.00"
+              price="$80.00"
             />
             <CarCard
-              name="Koenigsegg"
-              subtitle="Sport"
-              image="../../public/images/koenigsegg.png"
-              gasoline="90L"
-              capacity="2"
-              price="$99.00"
+              name="Rolls-Royce"
+              subtitle="Sedan"
+              image="../../public/images/rolls.png"
+              gasoline="70L"
+              capacity="4"
+              price="$96.00"
             />
             <CarCard
-              name="Koenigsegg"
+              name="Nissan GT-R"
               subtitle="Sport"
-              image="../../public/images/koenigsegg.png"
-              gasoline="90L"
+              image="../../public/images/nissan.png"
+              gasoline="80L"
               capacity="2"
-              price="$99.00"
+              price="$80.00"
             />
           </div>
         </section>

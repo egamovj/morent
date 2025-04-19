@@ -1,5 +1,23 @@
 .popular {
+  margin-bottom: 32px;
   background-color: #f6f7f9;
+}
+
+.top {
+  display: flex;
+}
+
+.top h3 {
+  color: #90a3bf;
+  font-size: 16px;
+  letter-spacing: 0%;
+}
+
+.top span {
+  color: #3563e9;
+  font-size: 16px;
+  letter-spacing: 0%;
+  font-weight: 600;
 }
 
 .cars {
