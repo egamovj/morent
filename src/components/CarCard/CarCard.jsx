@@ -9,20 +9,20 @@ const CarCard = ({ name, subtitle, image, capacity, price, gasoline }) => {
           <h2>{name}</h2>
           <span>{subtitle}</span>
         </div>
-        <img src="../../public/images/Like.png" alt="" />
+        <img src="../../../public/images/Like.png" alt="" />
       </div>
       <img src={image} alt={name} className="carImage" />
       <div className="car-sett">
         <div className="">
-          <img src="../../public/images/gas-station.png" alt="Car Image" />
+          <img src="../../../public/images/gas-station.png" alt="Car Image" />
           <span>{gasoline}</span>
         </div>
         <div className="">
-          <img src="../../public/images/manual.png" alt="" />
+          <img src="../../../public/images/manual.png" alt="" />
           <span>Manual</span>
         </div>
         <div className="">
-          <img src="../../public/images/profile-2user.png" alt="" />
+          <img src="../../../public/images/profile-2user.png" alt="" />
           <span>{capacity} People</span>
         </div>
       </div>

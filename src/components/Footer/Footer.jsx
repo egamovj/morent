@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <div className="f-logo">
           <a href="/">
-            <img src="../../public/icons/Logo.svg" alt="Morent logo" />
+            <img src="../../../public/icons/Logo.svg" alt="Morent logo" />
           </a>
           <p>
             Our vision is to provide convenience <br /> and help increase your
