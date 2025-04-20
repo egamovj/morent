@@ -6,10 +6,12 @@ const Footer = () => {
     <div className="container">
       <footer>
         <div className="f-logo">
-          <a href="/"><img src="../../public/icons/Logo.svg" alt="Morent logo" /></a>
+          <a href="/">
+            <img src="../../public/icons/Logo.svg" alt="Morent logo" />
+          </a>
           <p>
-            Our vision is to provide convenience <br /> and help increase your sales
-            business.
+            Our vision is to provide convenience <br /> and help increase your
+            sales business.
           </p>
         </div>
         <div className="f-about">
