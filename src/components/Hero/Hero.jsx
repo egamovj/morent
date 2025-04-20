@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="bottom">
             <div className="pick-up">
               <div className="mark">
-                <img src="../../public/icons/mark.svg" alt="" />
+                <img src="../../../public/icons/mark.svg" alt="" />
                 <h3>Pick-Up</h3>
               </div>
               <div className="selects">
@@ -58,11 +58,11 @@ const Hero = () => {
               </div>
             </div>
             <div className="swap">
-              <img src="../../public/icons/Swap.svg" alt="" />
+              <img src="../../../public/icons/Swap.svg" alt="" />
             </div>
             <div className="drop-off">
               <div className="mark">
-                <img src="../../public/icons/mark.svg" alt="" />
+                <img src="../../../public/icons/mark.svg" alt="" />
                 <h3>Drop=Off</h3>
               </div>
               <div className="selects">
