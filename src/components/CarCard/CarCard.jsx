@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./carCard.css";
 
-const CarCard = ({ name, subtitle, image, capacity, price, gasoline }) => {
+const CarCard = ({ id, name, subtitle, image, capacity, price, gasoline }) => {
   return (
-    <div className="car">
+    <Link to={`/car/${id}`} className="car">
       <div className="title">
         <div className="name">
           <h2>{name}</h2>
@@ -32,7 +33,7 @@ const CarCard = ({ name, subtitle, image, capacity, price, gasoline }) => {
         </p>
         <button>Rent Now</button>
       </div>
-    </div>
+    </Link>
   );
 };
 

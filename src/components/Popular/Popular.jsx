@@ -13,6 +13,7 @@ const Popular = () => {
           </div>
           <div className="cars">
             <CarCard
+            id='1'
               name="Koenigsegg"
               subtitle="Sport"
               image="../../../public/images/koenigsegg.png"
@@ -21,6 +22,7 @@ const Popular = () => {
               price="$99.00"
             />
             <CarCard
+            id='2'
               name="Nissan GT-R"
               subtitle="Sport"
               image="../../../public/images/nissan.png"
@@ -29,6 +31,7 @@ const Popular = () => {
               price="$80.00"
             />
             <CarCard
+            id='3'
               name="Rolls-Royce"
               subtitle="Sedan"
               image="../../../public/images/rolls.png"
@@ -37,6 +40,7 @@ const Popular = () => {
               price="$96.00"
             />
             <CarCard
+            id='4'
               name="Nissan GT-R"
               subtitle="Sport"
               image="../../../public/images/nissan.png"
